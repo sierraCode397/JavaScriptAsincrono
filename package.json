@@ -10,5 +10,8 @@
     "javascript"
   ],
   "author": "isaac luisjuan izaack107@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
