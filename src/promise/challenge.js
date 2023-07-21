@@ -19,7 +19,7 @@ fetchData(`${API}/products`)
     .then((response) => response.json())
     .then(products => {
         console.log(products)
-        return fetchData(`${API}/products/${products[0].id}`)
+        return fetchData(`${API}/products/${products[0].id}`) /* Esta es la forma de hacer el Callback Hell con Fetch */
     })
     .then((response) => response.json())
     .then(product => {
