@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d src",
+    "deploy": "gh-pages -d src -b | --branch gh-pages2" ,
     "delete-branch": "git branch -d gh-pages",
     "callback": "node src/callback/challenge.js"
   },
