@@ -1,13 +1,13 @@
-const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCQX_MZRCaluNKxkywkLEgfA&part=snippet%2Cid&order=date&maxResults=15';
+const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCok_yhjwg4WSx3s_2Yh8ZjQ&part=snippet%2Cid&order=date&maxResults=10';
 
 const content = null || document.getElementById("content");
 
 const options = {
-    method: 'GET',
-    headers: {
-        'X-RapidAPI-Key': 'f70e5c780cmsh3cbda815b540e7bp120074jsne3f7b51548c0',
-        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-    }
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'f70e5c780cmsh3cbda815b540e7bp120074jsne3f7b51548c0',
+		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+	}
 };
 
 async function fetchData(urlApi) {
